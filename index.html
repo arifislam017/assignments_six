@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pets Garden</title>
+    <!-- Daisy UI & Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-        <h1>Hello Sir</h1>
+    <!-- Header & Naver -->
+    <header>
+        <nav class="w-10/12 mx-auto py-5 flex justify-between items-center">
+            <div class="navSection flex gap-3 items-center">
+                <h1 class="text-pink-600 font-bold text-xl">Peddy</h1>
+                <img src="assets/logo.webp" alt="icon">
+            </div>
+            <div class="gap-5 flex">
+                <button class="btn border-none text-sm font-normal">Home</button>
+                <button class="btn border-none text-sm font-normal">Shop</button>
+                <button class="btn border-none text-sm font-normal">Contact</button>
+            </div>
+            <div>
+                <button class="btn border-none rounded-full"><img class=" h-[30px] w-[30px] p-1 border rounded-full"
+                        src="assets/user.png" alt="user"></button>
+            </div>
+        </nav>
+    </header>
+    <!-- Header & Naver -->
+    <!-- Sub Header Start -->
+    <section class="w-10/12 h-auto mt-16  mx-auto py-5 flex justify-between items-center">
+        <div class="mx-auto flex justify-around gap-2">
+            <h3 class=" text-gray-500 font-medium">Bringing Families Together</h3>
+            <img class="w-[25px] h-[25px]" src="assets/smile.png" alt="smile">
+        </div>
+    </section>
+    <section class="w-10/12 mx-auto py-5 flex justify-between items-center">
+        <div class="text-center mx-auto">
+            <h1 class="font-extrabold text-6xl font-poppins leading-tight">Your Path to Adoption <br> Starts Here</h1>
+            <p class="py-4 text-gray-500">Pets demonstrate love through behaviors like excited greetings, seeking closeness, and vocalizations, <br> which trigger joy and affection in their owners' brains, according to neuroscience</p>
+           <button class="btn btn-outline btn-secondary py-2">View More</button>
+           <img class="py-5" src="assets/pet.webp" alt="big image">
+        </div>
+
+    </section>
+    <!-- Sub Header End -->
+
+
+
 </body>
+
 </html>
